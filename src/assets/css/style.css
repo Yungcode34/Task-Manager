@@ -1,0 +1,51 @@
+* {
+    color: black
+}
+.custom-bg-dark{
+    background-color: lightgrey !important;
+}
+nav.navbar {
+    height: 6rem;
+}
+a.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 3px
+}
+
+li.nav-item a {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px){
+    div#navbarCollapse{
+        width: 100%;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        padding-left:20px;
+        padding-bottom: 5px;
+        background-color: lightgray;
+    }
+}
+
+div#app-container {
+    position: fixed;
+    top: 96px;
+    bottom: 96px;
+    width: 100%;
+    padding: 2rem;
+    background-color: darkgray;
+    overflow: auto;
+}
+
+footer#custom-footer {
+    height: 6rem;
+    background-color: lightgray;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
